@@ -1,0 +1,998 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{13507B19-B3DA-1F50-DD41-26283A79E3E2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_0;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_POST_PROCESSING_STACK_V2;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\GameRecordManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\MaxWindow.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\MissionTimer.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\Save.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\TextCustom.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Record Manager\TimerRecordManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Ammo\Ammo.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Ammo\BigLaserFlying.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Ammo\KocmoLaserFlying.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Ammo\KocmoMissileFlying.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Ammo\KocmoRocketFlying.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\BackgroundScaler.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\CameraTrackingSystem.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Hangar\HangarRanger.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\CameraSway.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\AvionicsSystem.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\Engine.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\EngineController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\FireControlSystem.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\KocmocraftManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\KocmocraftMechDroid.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\LocalBotController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\LocalPlayerController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\OnboardRadar.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\Module\PropellerController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\ObserverCamera.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Kocmocraft\WreckageBehavior.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\AnimationTween.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\DynamicCameraUI.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\GalaxyLobbyPanel.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\GalaxyLobbyPanel_Lobby.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\HarmonicMotion.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\HotKeySetting.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\Loading.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\LoadingOnline.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\PingRegion.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Lobby\PlayerDataEntry.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\MiniAgentController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\AGCCItem.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Bite.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Data\AircraftData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Data\EngineData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Data\PilotData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Data\WeaponData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\DynamicDisplay.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\EffectRecovery.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\FadeText.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Finish.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Flying\Ammo.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Flying\AmmoInterface.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Flying\Crash.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\GeneralInfo.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\IntoNew.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\MainInterface.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Menu\MainTheme.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Menu\MapOption.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Menu\MenuOption.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Menu\PolygonMesh.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Menu\TurntableController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\PatrolDroidController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Record\BattleFactionRecord.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\Record\PilotRecord.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\RemoteDead.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Old\TempChange.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\CounterManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\EnergyCore.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\EnergyEmitter.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\HeadUpDisplayManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\ResourceManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\SatelliteCommander.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Operation\SatelliteGameManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Static\KocmocraftData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Static\LocalPlayerRealtimeData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\Static\ObjectPoolManager.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Scripts\UIScaler.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Arduino Module\ArduinoController.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Arduino Module\MessageBox.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_Arduino.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_CustomSetting.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_HotKeySetting.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_KeyMapping.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_Mouse_Keyboard.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_WakakaFlyingMode.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\Controller_Xbox360Setting.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\ControllerData.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\ControllerPanel.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\ControllerPanel_MouseKeyboard.cs" />
+     <Compile Include="Assets\_iLYuSha Wakaka Setting\Wakaka Controller\ControllerPanel_WakakaFlyingMode.cs" />
+     <Compile Include="Assets\BigShip.cs" />
+     <Compile Include="Assets\Custom Package\NonConvexMeshCollider\NonConvexMeshCollider.cs" />
+     <Compile Include="Assets\Custom Package\Wakaka\Portal Shutter\PortalController.cs" />
+     <Compile Include="Assets\MeshCalculator.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets\SkinManager.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\Asteroid.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\AsteroidSpawner.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\ChangeSettingsLegacy.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\Cube.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\DestroyOpenMenuText.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\HandleMenu.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\MoveCamera.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Examples\Scripts\SpectateObjects.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\Common.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\Compatibility.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\Effect.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\IDimension.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\MinMaxRange.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\MipBuffer.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\MKGlow.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\PipelineExtensions.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\PipelineProperties.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\RenderContext.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\RenderTargetContext.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\Resources.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Scripts\Settings.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Demo\Code\AutoEnableObjects.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Demo\Code\InfoTextDisable.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Demo\Code\MKXRayCopyPropertiesRuntime.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Demo\Code\MKXRayDemoControl.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Demo\Code\MKXRayDemoMouseOrbitImproved.cs" />
+     <Compile Include="Assets\Store Package\Free Package\_MK\MKXRayFree\MKXRayFreeMaterialHelper.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_New.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_Translate.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX2_Demo.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX3_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo_Translate.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_InspectorHelp.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_LightFlicker.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Scripts\CFX2_AutoRotate.cs" />
+     <Compile Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Store Package\Free Package\SkythianCat\Glowing_Forest\Scripts\WaterGroup.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\AirStrike\Standard Assets\RealExplosive\Sources\Scripts\FX_ParticlePreview.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\AirStrike\Standard Assets\RealExplosive\Sources\Scripts\FX_Setting.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+     <Compile Include="Assets\Store Package\Pirate Package\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Sprites\Sprites-Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\MKGlowStandard.shader" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\GlowAdditive.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Illumin\MK_Illumin-Glossy.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Common.hlsl" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSM25.shader" />
+     <None Include="Assets\Store Package\Free Package\Sci-Fi Styled Modular Pack\Readme.txt" />
+     <None Include="Assets\Store Package\Pirate Package\Demigiant\DOTweenPro\readme.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\_iLYuSha Wakaka Setting\Wakaka Kocmocraft\開發筆記.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Cutout\MK_Cutout-Glossy.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Composite.hlsl" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Particle\MK_Particle AddMultiply.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Legacy_3_0_7\ReadMe.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\Distortion\Free\FreeDistortionCullBack.shader" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Particle\MK_Particle Alpha Blend.shader" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\Particles.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\CartoonFX Free.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Normal\MK_Normal-DiffuseBumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Normal\MK_Normal-DiffuseBumpSpec.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSM30.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Unlit-Detail.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSM40.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Other\MK_Illumin-Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Unlit-Text.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSM35.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Particle\MK_Particle Add.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Transparent\MK_Transparent-Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Transparent\MK_Transparent-DiffuseBumpSpec.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\Distortion\Distortion.shader" />
+     <None Include="Assets\_iLYuSha Wakaka Setting\VFX\Fix UI in Linear Color Space\UI-LinearColor.shader" />
+     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Downsample.hlsl" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Other\MK_Unlit-Normal.shader" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_Bicolor.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\UI\UI-Default.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_Monochrome.shader" />
+     <None Include="Assets\Store Package\Free Package\Medieval_Cartoon_Village\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Documents\UpdateLog.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\Sprites\Sprites-Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Particle\MK_Particle Multiply.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Cutout\MK_Cutout-DiffuseBumpSpec.shader" />
+     <None Include="Assets\Custom Package\NonConvexMeshCollider\ReadMe.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSM20.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Illumin\MK_Illumin-DiffuseBumpSpec.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\GlowAdditiveTwoColor.shader" />
+     <None Include="Assets\_iLYuSha Wakaka Setting\Fonts\TMP Fonts Custom\Text.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Illumin\MK_Illumin-DiffuseBumped.shader" />
+     <None Include="Assets\Store Package\Pirate Package\Lowpoly Township Set\Readme.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Copy.hlsl" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Normal\MK_Normal-Glossy.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_Lit.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Bumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\UI.hlsl" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Unlit-TextDetail.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_MonochromeUnobstructed.shader" />
+     <None Include="Assets\Store Package\Pirate Package\Demigiant\DOTween\readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Transparent\MK_Transparent-DiffuseBumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Lit-Refraction.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Other\MK_Mobile-Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-DefaultETC1.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Lit-Detail.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-DefaultFont.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Debug.hlsl" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_DiffuseBump.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Normal\MK_Normal-Diffuse.shader" />
+     <None Include="Assets\Store Package\Pirate Package\Demigiant\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Lit-RefractionDetail.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Presample.hlsl" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Sprite.hlsl" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\IceShaderFastSimple.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\Upsample.hlsl" />
+     <None Include="Assets\Store Package\Free Package\SKY city lite\Foliage\Materials\Vegetation.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\MKGlowStandardSpecular.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Illumin\MK_Illumin-Diffuse.shader" />
+     <None Include="Assets\_iLYuSha Wakaka Setting\Ammo Asset\Rocket\VFX\EmissiveParticleForward.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Inc\CompositeSample.hlsl" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_Diffuse.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\Sprites\Sprites-Default.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Transparent\MK_Transparent-Glossy.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Default.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Cutout\MK_Cutout-Diffuse.shader" />
+     <None Include="Assets\Custom Package\Realistic Effects Pack\Shaders\GlowAdditiveSimple.shader" />
+     <None Include="Assets\_iLYuSha Wakaka Setting\Ammo Asset\Rocket\VFX\EmissiveParticle.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\Effect\MKGlowSelectiveRender.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Textures\MaCrea\MaCrea.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKXRayFree\Shader\MKXRayFree.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Lit-Bumped.shader" />
+     <None Include="Assets\Store Package\Pirate Package\Demigiant\readme_DOTweenPro.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Legacy\Cutout\MK_Cutout-DiffuseBumped.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Lit-Transparent.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsLuminance\UI\UI-Unlit-Transparent.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
+     <None Include="Assets\Store Package\Free Package\_MK\MKGlowFree\Shaders\VariantsSelective\Sprites\Sprites-Default.shader" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\Store Package\Free Package\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
+     <None Include="Assets\Store Package\Pirate Package\ScanlineHighlightShader\Shaders\ScanlineHighlight_PBRMetalness.shader" />
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Assets/Photon/PhotonLibs/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="websocket-sharp">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Assets/Store Package/Pirate Package/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Assets/Store Package/Pirate Package/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Assets/Store Package/Pirate Package/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Funny-Skirmish-Online-19.1.26/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>D:/Program Files/2018.3.0f2/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{AED145C0-6E25-E0AD-7504-88301194454A}</Project>      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{481CBC88-8FD3-9061-08F0-9D65F503FE10}</Project>      <Name>PunDemos.DemoHubEditor</Name>    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{65647476-B6CC-3EE7-FE94-376A96E1F2F2}</Project>      <Name>PunDemos.DemoSlotcarEditor</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{8CF05AAF-4134-E10D-9C8F-70E4BA8C24CD}</Project>      <Name>PhotonUnityNetworking.Demos</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{1E17E67F-1A90-E490-19D9-B6CFA73339C8}</Project>      <Name>PhotonUnityNetworking.Utilities</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonWebSocket.csproj">
+      <Project>{3B912D14-7214-EBB9-44C4-D45F6799E4F3}</Project>      <Name>PhotonWebSocket</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{32209119-030F-26A9-5C2C-CE4FBEAD5EA9}</Project>      <Name>PhotonRealtime</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{D11BF431-0A98-DB7A-2E70-A751F4FF07D4}</Project>      <Name>PhotonUnityNetworking</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{41E3C9F2-2FC1-F3D4-630F-C4DD2EB75F4D}</Project>      <Name>PhotonChat</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{078A2936-A972-91E7-06C6-885C598ADA2A}</Project>      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{A03866DF-16EE-66D5-22F7-68539B7C3335}</Project>      <Name>PhotonUnityNetworking.Editor</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
